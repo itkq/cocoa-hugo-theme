@@ -174,7 +174,8 @@ section.header .content {
 }
 section.header .avatar {
   border-radius: 50%;
-  max-width: 100px;
+  max-width: 50px;
+  padding-right: 3px;
 }
 section.header .name {
   font-size: 18px;
@@ -499,6 +500,31 @@ section.main .container .content .no-bullet .date {
   color: #666 !important;
   font-style: normal;
 }
+section.main .container .content .career-item {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  list-style: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+section.main .container .content .career-item .date {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+  min-width: 100px;
+  color: gray;
+  text-align: right;
+  margin-right: 16px;
+}
 section {
   padding: 0 16px;
 }
@@ -535,6 +561,12 @@ section.main {
     list-style: none;
   }
   section.main .container .content .post-item .meta {
+    display: block;
+  }
+  section.main .container .content .career-item {
+    display: flex;
+  }
+  section.main .container .content .career-item .date {
     display: block;
   }
   section.main.post {
