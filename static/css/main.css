@@ -103,7 +103,7 @@ section {
     padding: 0 16px;
     margin-left: 100px;
     margin-right: 100px;
-    max-width: 750px;
+    max-width: 850px;
   }
 }
 section.header {
@@ -477,6 +477,8 @@ section.main .container .content .post-item {
   align-items: center;
   display: list-item;
   list-style: disc inside;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 section.main .container .content .post-item .meta {
   color: #666;
